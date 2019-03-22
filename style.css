@@ -1,0 +1,26 @@
+#items {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+ 
+}
+#flip{
+    position: relative;
+}
+#panel {
+
+    position: absolute;
+    padding: 50px;
+    display:none;
+    background-color:#cccccc;
+    border: 1px solid gray;
+    z-index: 10;
+    top:56px;
+    
+  }
+#ClickMe {
+    margin-right:15px;
+    height: 40px;
+    width: 40px;
+    z-index:11;
+}
