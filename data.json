@@ -22,5 +22,11 @@
 		"gender" 	: "male",
 		"color" 	: "white-mustard",
 		"age" 		: "2 years"
+	},
+	{
+		"name" 		: "Meep",
+		"gender" 	: "male",
+		"color" 	: "white-mustard",
+		"age" 		: "2 years"
 	}
 ]

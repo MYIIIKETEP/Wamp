@@ -10,7 +10,7 @@ xhr.onreadystatechange = function () {
 		var items = JSON.parse(xhr.responseText);
 		var output = "";
 		for (var key in items) {
-			output += "<div id=items class=col-md-3>" + "<h3>"+items[key].name + '</h3>' 
+			output += "<div id=items class=col-md-2>" + "<h3>"+items[key].name + '</h3>' 
 			+ '<p>' + "Gender: " + items[key].gender + '</p>'+ "</div>";
 		}
 		
@@ -21,7 +21,6 @@ xhr.send();
 
 $(function(){
     $("#ClickMe").click(function(){
-        $("#panel").slideToggle("slow");
-        //$("#panel").slideUp("slow"); Css on slide div NO Display:none;
+        $("#panel").slideToggle("fast");
     });
   });
