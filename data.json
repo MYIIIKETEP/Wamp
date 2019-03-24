@@ -28,5 +28,12 @@
 		"gender" 	: "male",
 		"color" 	: "white-mustard",
 		"age" 		: "2 years"
+	},
+	{
+		"name" 		: "LoL",
+		"gender" 	: "Kek",
+		"color" 	: "white-mustard",
+		"age" 		: "2 years"
 	}
+	
 ]
